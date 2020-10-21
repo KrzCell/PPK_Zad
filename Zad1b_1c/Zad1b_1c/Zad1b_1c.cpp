@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    //                                            ZAD 1B
+    /* //                                            ZAD 1B
     double x = 0, a = 0, b = 0, c = 0;
     double f = 0, g = 0, h = 0, d = 2.5, e = 2.7182, E = 0;
     E = 5 * 3.1415 * sqrt(5);
@@ -27,6 +27,15 @@ int main()
     // c)
     h = fabs(((a * sin(E * x)) + (b * cos(E * x))) / (d * (c + 5)));
     cout << "H(x)=" << h << endl;
-    //                                            ZAD 1C
-}
+    */ //                                            ZAD 1C
+    char c, z;
+    signed int n;
+    cout << "Podaj znak - ";
+    cin >> c;
+    cout << "Podaj liczbe = ";
+    cin >> n;
+    z = (c + n) % 126;
+    cout << c << "(" <<(int)c << ")" <<"  =>  " << z << "(" <<(int)z << ")" <<endl;
+} 
+
 
